@@ -9,5 +9,6 @@ router.get('/', function(req, res, next) {
   c=Math.log10(edokati);
   res.send(`[Math.imul()] applied to ${edokati} is ${a} [Math.log()] applied to ${edokati} is ${b} [Math.log10()] applied to ${edokati} is ${c}`);
 
+});
 module.exports = router;
 
